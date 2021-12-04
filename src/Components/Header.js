@@ -36,6 +36,7 @@ function Header() {
     </Nav>
   );
 }
+export default Header;
 
 const Nav = styled.nav`
   height: 80px;
@@ -98,5 +99,3 @@ const UserImg = styled.img`
   border-radius: 50%;
   z-index: 1500;
 `;
-
-export default Header;
